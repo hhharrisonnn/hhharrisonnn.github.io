@@ -37,6 +37,9 @@ body{
     .arrow{
         right: 0.5%;
     }
+    .portfolio ul{
+        overflow: scroll;
+    }
 }
 @media screen and (max-width: 600px) {
     .column {
@@ -231,7 +234,6 @@ section .title{
     align-items: center;
     padding: 2rem;
     gap: 1rem;
-    overflow: scroll;
     list-style: none;
 }
 .portfolio ul li{
