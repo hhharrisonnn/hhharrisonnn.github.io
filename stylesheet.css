@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
     text-decoration: none;
 }
-html, body{
+html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+body {
     position: relative;
 }
-.arrow{
+.arrow {
     color: white;
     font-size: 48px;
     z-index: 2000;
@@ -23,21 +23,21 @@ body{
     right: 5%;
     display: flex;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     .column {
         flex: 50%;
         max-width: 50%;
     }
-    .slideshow img{
+    .slideshow img {
         height: 100%;
     }
-    .header ion-icon{
+    .header ion-icon {
         left: 40%;
     }
-    .arrow{
+    .arrow {
         right: 0.5%;
     }
-    .portfolio ul{
+    .portfolio ul {
         overflow: scroll;
     }
 }
@@ -46,76 +46,76 @@ body{
         flex: 100%;
         max-width: 100%;
     }
-    .slideshow img{
+    .slideshow img {
         height: 100%;
     }
-    .header ion-icon{
+    .header ion-icon {
         left: 40%;
     }
-    .arrow{
+    .arrow {
         right: 0.5%;
     }
 }
 
-h1{
+h1 {
     font-size: 50px;
     font-weight: 500;
     line-height: 50px;
 }
-h2{
+h2 {
     font-size: 35px;
     font-weight: 420;
     line-height: 30px;
 }
-p{
+p {
     font-size: 25px;
     line-height: 28px;
     font-weight: 400;
 }
-a{
+a {
     color: black;
 }
 
-.menu{
+.menu {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
 }
-.menu .container{
+.menu .container {
     padding: 1rem 4%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 }
-.menu .name{
+.menu .name {
     height: 40px;
     overflow: hidden;
 }
-.menu .name a{
+.menu .name a {
     font-size: 30px;
     font-weight: 400;
     color: white;
     letter-spacing: 4px;
 }
-.menu ul{
+.menu ul {
    display: flex;
    gap: 1.5rem;
    list-style: none;
 }
-.menu ul a{
+.menu ul a {
     font-size: 20px;
     font-weight: 400;
     color: white;
     margin-right: 30px;
 }
-.menu ul a:hover{
+.menu ul a:hover {
     color: pink;
 }
 
-.header{
+.header {
     background-image: url(images/photos/52.png);
     min-height: 100vh;
     width: 100%;
@@ -126,7 +126,7 @@ a{
     position: relative;
     z-index: 900;
 }
-.header .intro{
+.header .intro {
     position: absolute;
     top: 50%;
     left: 6%;
@@ -139,21 +139,20 @@ a{
 }
 .header .intro h1, 
 .header .intro a,
-.header .intro p
-{
+.header .intro p {
     color: white;
 }
-.header .intro h1 a:hover{
+.header .intro h1 a:hover {
     color: pink;
 }
-.header .btns{
+.header .btns {
     display: flex;
     gap: 1rem;
 }
-.header .intro .btn:hover{
+.header .intro .btn:hover {
     background-color: pink;
 }
-.header .intro .btn{
+.header .intro .btn {
     margin-top: 1rem;
     padding: 10px 30px;
     font-size: 14px;
@@ -162,7 +161,7 @@ a{
     background-color: white;
     width: fit-content;
 }
-.header ion-icon{
+.header ion-icon {
     color: white;
     font-size: 64px;
     z-index: 1000;
@@ -171,33 +170,37 @@ a{
     left: 50%;
 
 }
-.header ion-icon:hover{
+.header ion-icon:hover {
     color: pink;
 }
 
-.slideshow img{
+.slideshow img {
     min-width: 100%;
     height: auto;
     position: fixed;
     top: 0;
     left: 0;
 }
-.slideshow .fade{
+.slideshow .fade {
     animation-name: fade;
     animation-duration: 20s;
 }
-@keyframes fade{
-    from{opacity: .7}
-    to{opacity: .8}
+@keyframes fade {
+    from {
+        opacity: .7
+    }
+    to {
+        opacity: .8
+    }
 }
 
-section{
+section {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-section .container{
+section .container {
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -205,14 +208,14 @@ section .container{
     padding-left: 1.5rem;
     z-index: 1000;
 }
-section .container .box{
+section .container .box {
     display: flex;
     flex-direction: column;
     width: 100%;
     min-width: 300px;
     padding: 2rem;
 }
-section .title{
+section .title {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -222,13 +225,13 @@ section .title{
     justify-content: center;
 }
 
-.portfolio p{
+.portfolio p {
     margin-left: 3rem;
     margin-right: 3rem;
     line-height: 1.6;
     z-index: 1000;
 }
-.portfolio ul{
+.portfolio ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -236,92 +239,92 @@ section .title{
     gap: 1rem;
     list-style: none;
 }
-.portfolio ul li{
+.portfolio ul li {
     font-size: 22px;
     font-weight: 400;
     line-height: 25px;
     padding: 10px 4px;
     cursor: pointer;
 }
-.portfolio ul li.first{
+.portfolio ul li.first {
     border-bottom: 1px solid black;
 }
-.portfolio ul li:hover{
+.portfolio ul li:hover {
     color: pink;
     border-bottom: 1px solid black;
 }
 
 /* PORTFOLIO GRIDS */
-.grid{
+.grid {
     padding: 1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.grid > div{
+.grid > div {
     padding: 1rem;
     display: grid;
 }
-.grid > div > img{
+.grid > div > img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
 /* GALLERY */
-.gallery .row{
+.gallery .row {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 0 4px;
     z-index: 1000;
 }
-.gallery .column{
+.gallery .column {
     flex: 25%;
     max-width: 15%;
     padding: 0 4px;
 }
-.gallery .column img{
+.gallery .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
 
 /* ABOUT */
-.about .container{
+.about .container {
     justify-content: center;
 }
-.about .image{
+.about .image {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.about img{
+.about img {
     padding: 1rem;
     width: 10%;
     min-width: 300px;
     object-fit: cover
 }
-.about p{
+.about p {
     display: flex;
     flex-direction: column;
     padding: 1rem;
     font-size: 30px;
     line-height: 1.6;
 }
-.about ul{
+.about ul {
     font-size: 25px;
 }
 
 /* CONTACT */
-.contact ion-icon{
+.contact ion-icon {
     font-size: 256px;
 }
-ion-icon:hover{
+ion-icon:hover {
     color: pink;
 }
-.contact .links{
+.contact .links {
     width: 100%;
     padding: 2rem;
     display: flex;
@@ -329,7 +332,7 @@ ion-icon:hover{
     align-items: center;
     justify-content: space-around;
 }
-.contact .icons{
+.contact .icons {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -351,14 +354,14 @@ ion-icon:hover{
     background: black;
     opacity: 0.6;
 }
-.footer p{
+.footer p {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
 }
-.footer ion-icon{
+.footer ion-icon {
     font-size: 40px;
     color: white;
 }
-.footer ion-icon:hover{
+.footer ion-icon:hover {
     color: pink;
 }
