@@ -21,22 +21,22 @@ function topFunction() {
 }
 
 // slideshow
-let index = 0
-showSlides();
+// let index = 0
+// showSlides();
 
-function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("slides")
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    index++;
-    if (index > slides.length) {
-        index = 1;
-    }
-    slides[index-1].style.display = "block";
-    setTimeout(showSlides, 20000);
-}
+// function showSlides() {
+//     let i;
+//     let slides = document.getElementsByClassName("slides")
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none";
+//     }
+//     index++;
+//     if (index > slides.length) {
+//         index = 1;
+//     }
+//     slides[index-1].style.display = "block";
+//     setTimeout(showSlides, 20000);
+// }
 
 // portfolio grids
 document.getElementById("fantasy").addEventListener("click", function() {
@@ -51,6 +51,9 @@ document.getElementById("simple").addEventListener("click", function() {
 document.getElementById("documentary").addEventListener("click", function() {
     openTab("documentary");
 });
+document.getElementById("makeup").addEventListener("click", function() {
+    openTab("makeup");
+})
 document.getElementById("other").addEventListener("click", function() {
     openTab("other");
 });

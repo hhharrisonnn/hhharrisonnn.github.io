@@ -28,9 +28,9 @@ body {
         flex: 50%;
         max-width: 50%;
     }
-    .slideshow img {
+    /* .slideshow img {
         height: 100%;
-    }
+    } */
     .header ion-icon {
         left: 40%;
     }
@@ -46,9 +46,9 @@ body {
         flex: 100%;
         max-width: 100%;
     }
-    .slideshow img {
+    /* .slideshow img {
         height: 100%;
-    }
+    } */
     .header ion-icon {
         left: 40%;
     }
@@ -116,7 +116,7 @@ a {
 }
 
 .header {
-    background-image: url(images/photos/52.png);
+    background-image: url(images/background.png);
     min-height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ a {
     color: pink;
 }
 
-.slideshow img {
+/* .slideshow img {
     min-width: 100%;
     height: auto;
     position: fixed;
@@ -192,7 +192,7 @@ a {
     to {
         opacity: .8
     }
-}
+} */
 
 section {
     min-height: 100vh;
