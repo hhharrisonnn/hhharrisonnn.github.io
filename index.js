@@ -39,6 +39,9 @@ function topFunction() {
 // }
 
 // portfolio grids
+document.getElementById("theperfectwoman").addEventListener("click", function() {
+    openTab("theperfectwoman");
+})
 document.getElementById("fantasy").addEventListener("click", function() {
     openTab("fantasy");
 });
@@ -51,9 +54,6 @@ document.getElementById("simple").addEventListener("click", function() {
 document.getElementById("documentary").addEventListener("click", function() {
     openTab("documentary");
 });
-document.getElementById("makeup").addEventListener("click", function() {
-    openTab("makeup");
-})
 document.getElementById("other").addEventListener("click", function() {
     openTab("other");
 });
