@@ -23,6 +23,33 @@ body {
     right: 5%;
     display: flex;
 }
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+    .header ion-icon {
+        left: 40%;
+    }
+    .arrow {
+        right: 0.5%;
+    }
+    .portfolio ul {
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .header ion-icon {
+        left: 40%;
+    }
+    .arrow {
+        right: 0.5%;
+    }
+}
 
 h1 {
     font-size: 50px;
