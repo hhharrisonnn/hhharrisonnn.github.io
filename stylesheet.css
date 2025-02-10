@@ -82,22 +82,12 @@ a {
     color: pink;
 }
 
-@media only screen and (min-width: 1025px) {
-    .page-img-1 {
-        background-image: url(images/desktop.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    }
-}
-@media only screen and (max-width: 1025px) {
-    .page-img-1 {
-        background-image: url(images/mobile.jpg);
-        height: 100vh;
-        width: 100%;
-        background-size: cover;
-    }
+.page-img-1 {
+    background-image: url(images/background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
 }
 
 .page-img-2 {
