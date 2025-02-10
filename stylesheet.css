@@ -28,9 +28,6 @@ body {
         flex: 50%;
         max-width: 50%;
     }
-    /* .slideshow img {
-        height: 100%;
-    } */
     .header ion-icon {
         left: 40%;
     }
@@ -46,9 +43,6 @@ body {
         flex: 100%;
         max-width: 100%;
     }
-    /* .slideshow img {
-        height: 100%;
-    } */
     .header ion-icon {
         left: 40%;
     }
@@ -116,7 +110,7 @@ a {
 }
 
 .page-img-1 {
-    background-image: url(images/background.png);
+    background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -196,26 +190,6 @@ a {
 .header ion-icon:hover {
     color: pink;
 }
-
-/* .slideshow img {
-    min-width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-.slideshow .fade {
-    animation-name: fade;
-    animation-duration: 20s;
-}
-@keyframes fade {
-    from {
-        opacity: .7
-    }
-    to {
-        opacity: .8
-    }
-} */
 
 section {
     min-height: 100vh;

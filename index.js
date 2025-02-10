@@ -20,34 +20,16 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-// slideshow
-// let index = 0
-// showSlides();
-
-// function showSlides() {
-//     let i;
-//     let slides = document.getElementsByClassName("slides")
-//     for (i = 0; i < slides.length; i++) {
-//         slides[i].style.display = "none";
-//     }
-//     index++;
-//     if (index > slides.length) {
-//         index = 1;
-//     }
-//     slides[index-1].style.display = "block";
-//     setTimeout(showSlides, 20000);
-// }
-
 // portfolio grids
-document.getElementById("theperfectwoman").addEventListener("click", function() {
-    openTab("theperfectwoman");
-})
-document.getElementById("fantasy").addEventListener("click", function() {
-    openTab("fantasy");
+document.getElementById("street").addEventListener("click", function() {
+    openTab("street");
 });
 document.getElementById("creative").addEventListener("click", function() {
     openTab("creative");
 });
+document.getElementById("theperfectwoman").addEventListener("click", function() {
+    openTab("theperfectwoman");
+})
 document.getElementById("simple").addEventListener("click", function() {
     openTab("simple");
 });
