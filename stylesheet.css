@@ -23,7 +23,7 @@ body {
     right: 5%;
     display: flex;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .column {
         flex: 50%;
         max-width: 50%;
@@ -34,20 +34,14 @@ body {
     .arrow {
         right: 0.5%;
     }
-    .portfolio ul {
-        overflow: scroll;
+    .grid > div > img {
+        max-width: 100%;
+        
     }
 }
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-    .header ion-icon {
-        left: 40%;
-    }
-    .arrow {
-        right: 0.5%;
+@media screen and (max-width: 950px) {
+    .portfolio ul {
+        overflow: scroll;
     }
 }
 
