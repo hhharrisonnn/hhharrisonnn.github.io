@@ -264,7 +264,7 @@ section .title {
     display: grid;
 }
 .grid > div > img {
-    width: 100%;
+    width: 500px;
     height: 100%;
     object-fit: contain;
 }
