@@ -21,6 +21,9 @@ function topFunction() {
 }
 
 // portfolio grids
+document.getElementById("retrodiary").addEventListener("click", function() {
+    openTab("retrodiary");
+});
 document.getElementById("retro").addEventListener("click", function() {
     openTab("retro");
 });
